@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/*---parte do login---*/
+
+
+section{
+    display: flex;
+height: 100%;
+width: 100%;
+}
+
+/*Imagem*/
+.img{
+    height: 100vh;
+    width: 70vw;
+background-image: url(../img/pngtree-cool-origami-pictures-wallpaper-4k-uhd-size-image_754726.jpg);
+/*
+background-repeat: no-repeat;
+background-position: center;
+*/
+
+}
+
+/*formulario*/
+
+.form1{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #62aaa6;
+    color: #ddefef;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #46868c;
+    border-radius: 5px;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+    border: 0;
+
+  }
+
+
+#creatAccount{
+  text-decoration: none;
+  list-style: none;
+}
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+  
+
+
+/*--------Parte do castro--------*/
+
+.creatAccount2{
+  width: 100vw;
+  height: 100vh;
+  background-color: #62aaa6;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}
